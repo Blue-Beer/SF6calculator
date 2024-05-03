@@ -9,9 +9,9 @@
         <version>2.6.7</version>
     </parent>
     <groupId>com.zyc</groupId>
-    <artifactId>dyson-sphere</artifactId>
+    <artifactId>sf6-calculator</artifactId>
     <version>${revision}</version>
-    <name>dyson-sphere</name>
+    <name>SF6</name>
 
     <properties>
         <revision>1.0.1</revision>

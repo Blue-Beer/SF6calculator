@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package SF6连段{
+
+package 帧时间{
+
+我方状态 ..> 人物状态
+敌方状态 ..> 人物状态
+
+abstract class 我方状态
+abstract class 敌方状态
+
+abstract class 人物状态{
+
+
+Hitbox 受击判定
+Hitbox 攻击判定
+
+
+
+}
+
+}
+
+}
+
+
+
+@enduml
